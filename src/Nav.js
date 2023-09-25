@@ -3,7 +3,7 @@ function Nav() {
     return (
       <nav className="Nav">
         <img src={Logo} alt="Little Lemon Logo"/>
-        <ul>
+        <ul className="Navmenu">
           <li><a href="home.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="menu.html">MENU</a></li>

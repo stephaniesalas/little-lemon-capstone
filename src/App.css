@@ -1,38 +1,243 @@
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  min-width: 100%;
+  font-family: "Karla",Arial, Helvetica, sans-serif;
+}
+
+.Nav {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  margin-top: 69px;
+  margin-bottom: 69px;
+  margin-left: 283px;
+  margin-right: 283px;
+}
+
+
+ul.Navmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 60px;
+  
+}
+
+ul.Navmenu li {
+  float: right;
+  margin: 8px;
+  list-style-type: none;
+  text-wrap: nowrap;
+}
+
+ul.Navmenu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.box {
+  width: 1440px;
+  height: 353px;
+  background-color: rgb(73, 94, 87);
+}
+
+.box h1 {
+  font-family: 'Markazi Text', serif;
+  color: rgb(244, 206, 20);
+  margin-left: 283px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-top: 31px;
+  padding-bottom: 20px;
+  font-size: 2.8rem;
+  height: max-content;
+}
+
+.box h2 {
+  font-family: 'Markazi Text', serif;
   color: white;
+  margin-left: 283px;
+  font-size: 1.8rem;
+  margin-top: 0px;
+  margin-left: 283px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 49px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.box p {
+  font-size: 1rem;
+  margin-left: 283px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  color: white;
+  width: 297px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.box img{
+  float: right;
+  margin-right: 283px;
+  margin-top: 30px;
+  padding-top: 0px;
+  position: relative;
+  border-radius: 16px;
 }
+
+.box button {
+  margin-left: 283px;
+  margin-top: 54px;
+  background-color:rgb(244, 206, 20);
+  font-weight: bold;
+  font-size: 1.05rem;
+  box-shadow: outset;
+  border-radius: 16px;
+  border-width: 0px;
+  width: 162px;
+  height: 37px;
+  justify-content: center;
+}
+
+.box2 {
+  margin-left: 283px;
+  margin-top: 188px;
+}
+
+.box2 h1{
+  font-family: 'Markazi Text', serif;
+  font-size: 2.8rem;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.box2 button {
+  display: inline-block;
+  margin-left: 328px;
+  margin-top: 0px;
+  background-color:rgb(244, 206, 20);
+  font-weight: bold;
+  font-size: 1.05rem;
+  box-shadow: none;
+  border-radius: 16px;
+  border-width: 0px;
+  width: 162px;
+  height: 37px;
+  justify-content: center;
+  position: relative;
+  bottom: 10px;
+
+}
+
+.articles {
+  margin-left: 283px;
+}
+
+.articles img{
+  display: inline-block;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+article {
+    background-color: rgb(217, 217, 217);
+    flex: 1;
+    justify-content: left;
+    padding: 0%;
+    width: 272px;
+    border-radius: 16px;
+    display: inline-block;
+    margin: 1%;
+    height: 406px;
+
+}
+
+div+img{
+  width: 272px;
+  height: 162px;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-left: 17px;
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+}
+
+article p {
+  font-size: .9rem;
+  margin-left: 17px;
+  margin-right: 20px;
+}
+/* #price {
+  display: inline-block;
+  font-size: .8rem;
+  padding-left: 66px;
+  color: darkgoldenrod;
+  margin-left: 66px;
+} */
+
+h3 + h3 {
+  color: rgb(207 , 99, 0);
+  margin-right: 36px;
+  float: right;
+}
+
+p + p {
+  margin-top: 22px;
+  font-weight: bold;
+}
+
+article p img {
+  padding-top: 15px;
+  padding-left: 5px;
+} 
+
+.box4 {
+  background-color: rgb(73, 94, 87);
+  height: 427px;
+  
+
+}
+
+.testimonials {
+  display: flex;
+  color: rgb(244, 206, 20);
+  justify-content: center;
+}
+
+.box4 h1 {
+ padding-top: 60px;
+ font-size: 2.8rem;
+ font-family: 'Markazi Text', serif;
+
+}
+
+.box4 section{
+  margin-left: 283px;
+ }
+
+ .box4 article{
+  width: 204px;
+  height: 200px;
+ }
+
+ .box4 article > p {
+  font-size: .9rem;
+ }
+
+ .box4 h3 + img {
+  margin-left: 17px;
+ }
+
+ .box4 h3 + p {
+  margin-top: 0px; 
+ }
