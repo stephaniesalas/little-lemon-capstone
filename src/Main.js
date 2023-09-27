@@ -10,6 +10,8 @@ import Kacie from "./Assets/sonnie-hiles-gG70fyu3qsg-unsplash.jpg";
 import Riley from "./Assets/christian-buehner-DItYlc26zVI-unsplash.jpg";
 import Hayden from "./Assets/edward-cisneros-_H6wpor9mjs-unsplash.jpg";
 import Starhalf from "./Assets/star 5 (half).png";
+import Restaurantchef from "./Assets/restaurant chef B.jpg";
+import Marioandadrian from "./Assets/Mario and Adrian A.jpg";
 
 
 
@@ -47,35 +49,32 @@ function Main() {
           <p>The famous greek salad of crispy lettuce, peppers,
            olives and our Chicago style feta cheese,
            garnished with crunchy garlic and rosemary croutons.</p>
-            <p>Order a delivery<img src={Cycling} alt="Bike Emoji"></img></p>
+            <p id="delivery">Order a delivery<img src={Cycling} alt="Bike Emoji"></img></p>
         </article>
         <article>
           <div class="box3">
-          <img src={Bruschetta} alt="Bruschetta close up" width={272} height={171}></img>
+          <img src={Bruschetta} width={272} height={171} alt="Bruschetta"></img>
         </div>
           <h3>Bruschetta</h3>
-          <h3>$ 12.99</h3>
-          <p>Our Bruschetta is made from grilled bread
-             that has been smeared with garlic and seasoned
-              with salt and olive oil. </p>
-            <p>Order a delivery<img src={Cycling} alt="Bike Emoji"></img></p>
+          <h3 id="price">$ 12.99</h3>
+          <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
+           Fresh locally grown tomatoes, basil completes this dish.</p>
+            <p id="delivery">Order a delivery<img src={Cycling} alt="Bike Emoji"></img></p>
         </article>
         <article>
           <div class="box3">
-          <img src={Lemondessert} alt="Lemon cake" width={272} height={171}></img>
+          <img src={Lemondessert} width={272} height={171} alt="Lemon Dessert"></img>
         </div>
-        <h3>Lemon Dessert</h3>
-          <h3>$ 12.99</h3>
-          <p>This comes sraight from grandma’s recipe book,
-             every last ingredient has been sauced and is
-              as authentic as can be imagined. </p>
-            <p>Order a delivery</p>
-            <img src={Cycling} alt="Bike Emoji"></img>
+          <h3>Lemon Dessert</h3>
+          <h3 id="price">$ 12.99</h3>
+          <p>This comes straight from grandma's recipe book. Sweet, warm, lemony, this fresh lemon cake will knock your socks off.
+           Fresh whipped cream and lemon zest tops off this temptation.</p>
+            <p id="delivery">Order a delivery<img src={Cycling} alt="Bike Emoji"></img></p>
         </article>
-          </section>
-          <section class="box4">
-            <div >
-              <h1 class="testimonials">Testimonials</h1>
+        </section>
+        <section class="box4">
+            <div class="testimonials">
+              <h1>Testimonials</h1>
             </div>
           <section>
             <article>
@@ -86,9 +85,9 @@ function Main() {
                 <img src={Star1} alt="yellow star" width={16} height={16}></img>
                 <img src={Star1} alt="yellow star" width={16} height={16}></img>
                 </h3>
-                <img src={Jenny} alt="woman smiling" width={59} height={68}></img>
+                <img src={Jenny} alt="woman smiling" width={59} height={60.9}></img>
                 <h3>Jenny C.</h3>
-                <p>“Little Lemon has the BEST bruschetta! LOVE IT!”</p>
+                <p>"Little Lemon has the absolute BEST bruschetta! Fresh and crispy!"</p>
             </article>
             <article>
               <h3>Rating
@@ -100,7 +99,7 @@ function Main() {
                 </h3>
                 <img src={Kacie} alt="woman smiling" width={59} height={60.9}></img>
                 <h3>Kacie M.</h3>
-                <p>“I have always had a good experience here. Service is quick and food is YUMMY!”</p>
+                <p>“I have always had a great time, quick service and food is YUMMY!”</p>
             </article>
             <article>
               <h3>Rating
@@ -128,19 +127,22 @@ function Main() {
             </article>
           </section>
           </section>
-          <section>
-            <div class="">
+          <section class="box6">
+            <div class="about">
+            <img id="twochefs" src={Marioandadrian} width={292} height={397} alt="Two Chefs talking"></img>
+            <img id="smileychef" src={Restaurantchef} width={292} height={397} alt="Smiley Chef"></img>
               <h1>Little Lemon</h1>
               <h2>Chicago</h2>
               <p>
               Marco and Adrian are two best friends who grew up eating Marco’s grandmother’s
                Mediterranean cooking and went to culinary school together. Afterwards they
                 circled back to their favorite flavors; Nana Maria’s.
+                <br></br>
+                <br></br>
                 They came back to downtown Chicago and opened Little Lemon in 2014.
               </p>
             </div>
-          </section>
-          
+            </section>
       </main>
     );
   }

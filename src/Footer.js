@@ -2,15 +2,37 @@ import Logo from "./Assets/rectangular logo.jpg"
 function Footer() {
     return (
       <footer className="Footer">
-        <img src={Logo} alt=""></img>
+        <section class="box5">
+        <img src={Logo} alt="little lemon square logo" width={150} height={233}></img>
+       <div class="doormat">
+        <h3>Doormat Navigation</h3>
         <ul>
-          <li><a href="home.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="menu.html">MENU</a></li>
-          <li><a href="reservations.html">RESERVATIONS</a></li>
-          <li><a href="order_online.html">ORDER ONLINE</a></li>
-          <li><a href="login.html">LOGIN</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="order_online.html">Order Online</a></li>
+          <li><a href="login.html">Login</a></li>
         </ul>
+        </div> 
+        <div class="contact">
+          <h3>Contact</h3>
+          <ul>
+            <li>123 E 456 S, 16th Street</li>
+            <li>Chicago, IL 23432</li>
+            <li>123-234-4567</li>
+            <li>little.lemon@gmail.com</li>
+          </ul>
+        </div>
+        <div class="socials">
+          <h3>Social Media Links</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>X</li>
+          </ul>
+        </div>
+        </section>
       </footer>
     );
   }

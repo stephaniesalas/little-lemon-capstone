@@ -22,7 +22,6 @@ ul.Navmenu {
   flex-direction: row;
   justify-content: flex-end;
   margin-left: 60px;
-  
 }
 
 ul.Navmenu li {
@@ -98,12 +97,20 @@ ul.Navmenu li a {
   background-color:rgb(244, 206, 20);
   font-weight: bold;
   font-size: 1.05rem;
-  box-shadow: outset;
   border-radius: 16px;
-  border-width: 0px;
+  border: none;
   width: 162px;
   height: 37px;
   justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.box button:hover{
+ background-color: rgb(73, 94, 87);
+ color: white;
+ border-style: solid;
+ border-color: white;
+ border-width: 2px;
 }
 
 .box2 {
@@ -125,7 +132,7 @@ ul.Navmenu li a {
   background-color:rgb(244, 206, 20);
   font-weight: bold;
   font-size: 1.05rem;
-  box-shadow: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   border-radius: 16px;
   border-width: 0px;
   width: 162px;
@@ -133,14 +140,21 @@ ul.Navmenu li a {
   justify-content: center;
   position: relative;
   bottom: 10px;
-
 }
+
+.box2 button:hover{
+  background-color: rgb(73, 94, 87);
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+ }
 
 .articles {
   margin-left: 283px;
 }
 
-.articles img{
+.articles img {
   display: inline-block;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -159,11 +173,6 @@ article {
 
 }
 
-div+img{
-  width: 272px;
-  height: 162px;
-}
-
 h3 {
   font-size: 1rem;
   margin-left: 17px;
@@ -177,13 +186,6 @@ article p {
   margin-left: 17px;
   margin-right: 20px;
 }
-/* #price {
-  display: inline-block;
-  font-size: .8rem;
-  padding-left: 66px;
-  color: darkgoldenrod;
-  margin-left: 66px;
-} */
 
 h3 + h3 {
   color: rgb(207 , 99, 0);
@@ -199,45 +201,209 @@ p + p {
 article p img {
   padding-top: 15px;
   padding-left: 5px;
-} 
+}
 
 .box4 {
   background-color: rgb(73, 94, 87);
   height: 427px;
-  
-
-}
-
-.testimonials {
-  display: flex;
-  color: rgb(244, 206, 20);
-  justify-content: center;
+  margin-top: 101px;
 }
 
 .box4 h1 {
  padding-top: 60px;
  font-size: 2.8rem;
  font-family: 'Markazi Text', serif;
+ font-weight: bold;
+ display: flex;
+ color: rgb(244, 206, 20);
+justify-content: center;
 
 }
 
-.box4 section{
+.box4 section {
   margin-left: 283px;
  }
 
- .box4 article{
+ .box4 article {
   width: 204px;
   height: 200px;
+  background-color: rgb(245, 245, 245);
  }
 
  .box4 article > p {
-  font-size: .9rem;
+  font-size: .8rem;
+  margin-left: 20px;
  }
 
  .box4 h3 + img {
-  margin-left: 17px;
+  margin-left: 20px;
  }
 
  .box4 h3 + p {
-  margin-top: 0px; 
+  margin-top: 0px;
+  margin-bottom: 20px;
  }
+
+ div.about {
+  margin-left: 283px;
+ }
+
+ div.about h2 {
+  font-family: 'Markazi Text', serif;
+  font-size: 1.8rem;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  margin-top: 15px;
+ }
+
+ div.about h1 {
+  font-family: 'Markazi Text', serif;
+  font-size: 2.8rem;
+  color: rgb(73, 94, 87);
+  font-weight: bold;
+  padding-top: 80px;
+  margin-bottom: 10px;
+ }
+
+
+ div.about p {
+  font-size: 1rem;
+  width: 297px;
+ }
+
+#twochefs {
+  float: right;
+  margin-right: 283px;
+  margin-top: 180px;
+  padding-top: 0px;
+  position: relative;
+  border-radius: 16px;
+
+}
+ #smileychef {
+  float: right;
+  margin-right: 487px;
+  margin-top: 80px;
+  padding-top: 0px;
+  position: relative;
+  border-radius: 16px;
+  top: -580px;
+}
+
+.box5 {
+  background-color: rgb(73, 94, 87);
+  color: white;
+  height: 432px;
+  width: 100%;
+  display: flex;
+  width: 1440px;
+}
+
+footer img{
+  margin-top: 100px;
+  margin-left: 283px;
+  margin-right: 60px;
+}
+.doormat {
+  margin-right: 80px;
+}
+.doormat h3 {
+  margin-top: 100px;
+  text-wrap: wrap;
+  width: 112px;
+  color: white;
+  margin-left: 0px;
+}
+.doormat ul {
+  margin-top: 16px;
+  list-style: none;
+  width: 112px;
+  padding-left: 0px;
+}
+
+.doormat ul a {
+  margin-top: 100px;
+  text-decoration: none;
+  color: white;
+  font-size: .8rem;
+  font-weight: bold;
+
+}
+
+.doormat li {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.contact {
+  margin-right: 40px;
+}
+
+.contact h3 {
+  margin-top: 100px;
+  color: white;
+  margin-left: 0px;
+}
+
+.contact ul {
+  list-style: none;
+  font-size: .8rem;
+  margin-top: 32px;
+  padding-left: 0px;
+  width:200px;
+  font-weight: bold;
+}
+.contact li {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.socials h3 {
+  margin-top: 100px;
+  color: white;
+  margin-left: 0px;
+}
+
+.socials {
+  margin-right: 60px;
+}
+
+.socials ul {
+  list-style: none;
+  font-size: .8rem;
+  margin-top: 32px;
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+.socials li {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* .box6 {
+  height: 704px;
+  background-color: aqua;
+  padding: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+} 
+main {
+  height: 2900px;
+  padding: 0%;
+  margin: 0%;
+} */
+
+nav ul li a:hover {
+  color: rgb(244, 206, 20);
+}
+
+footer ul li a:hover {
+  color: rgb(244, 206, 20);
+}
+
+#delivery:hover {
+  color: rgb(73, 94, 87);
+  font-weight: bolder;
+  font-size: .95rem;
+}
