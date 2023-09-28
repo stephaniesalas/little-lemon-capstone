@@ -18,6 +18,10 @@ import Marioandadrian from "./Assets/Mario and Adrian A.jpg";
 function Main() {
     return (
       <main className="Main">
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="./Bookings.js" element={<Booking />}></Route>
+        </Routes>
         <section>
           <div class="box">
           <img src={Restauranfood} width={376} height={446} alt="Dish of Bruschetta"></img>
@@ -49,7 +53,7 @@ function Main() {
           <p>The famous greek salad of crispy lettuce, peppers,
            olives and our Chicago style feta cheese,
            garnished with crunchy garlic and rosemary croutons.</p>
-            <p id="delivery">Order a delivery<img src={Cycling} alt="Bike Emoji"></img></p>
+            <p id="delivery">Order a delivery<img id="bike" src={Cycling} alt="Bike Emoji"></img></p>
         </article>
         <article>
           <div class="box3">
@@ -59,7 +63,7 @@ function Main() {
           <h3 id="price">$ 12.99</h3>
           <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
            Fresh locally grown tomatoes, basil completes this dish.</p>
-            <p id="delivery">Order a delivery<img src={Cycling} alt="Bike Emoji"></img></p>
+            <p id="delivery">Order a delivery<img id="bike" src={Cycling} alt="Bike Emoji"></img></p>
         </article>
         <article>
           <div class="box3">
@@ -69,7 +73,7 @@ function Main() {
           <h3 id="price">$ 12.99</h3>
           <p>This comes straight from grandma's recipe book. Sweet, warm, lemony, this fresh lemon cake will knock your socks off.
            Fresh whipped cream and lemon zest tops off this temptation.</p>
-            <p id="delivery">Order a delivery<img src={Cycling} alt="Bike Emoji"></img></p>
+            <p id="delivery">Order a delivery<img id="bike" src={Cycling} alt="Bike Emoji"></img></p>
         </article>
         </section>
         <section class="box4">
