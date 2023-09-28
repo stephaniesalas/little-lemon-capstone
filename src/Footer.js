@@ -21,15 +21,15 @@ function Footer() {
             <li>123 E 456 S, 16th Street</li>
             <li>Chicago, IL 23432</li>
             <li>123-234-4567</li>
-            <li>little.lemon@gmail.com</li>
+            <li><a href="little.lemon@gmail.com.html">little.lemon@gmail.com</a></li>
           </ul>
         </div>
         <div class="socials">
           <h3>Social Media Links</h3>
           <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>X</li>
+            <li><a href="facebook.com/littlelemon.html">Facebook</a></li>
+            <li><a href="instagram.com/littlelemon.html">Instagram</a></li>
+            <li><a href="x.com/littlelemon.html.">X</a></li>
           </ul>
         </div>
         </section>

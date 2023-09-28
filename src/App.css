@@ -358,6 +358,12 @@ footer img{
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
+.contact li a {
+    text-decoration: none;
+    color: white;
+}
+
 .socials h3 {
   margin-top: 100px;
   color: white;
@@ -379,6 +385,11 @@ footer img{
 .socials li {
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.socials li a {
+  text-decoration: none;
+  color: white;
 }
 
 /* .box6 {
