@@ -12,16 +12,13 @@ import Hayden from "./Assets/edward-cisneros-_H6wpor9mjs-unsplash.jpg";
 import Starhalf from "./Assets/star 5 (half).png";
 import Restaurantchef from "./Assets/restaurant chef B.jpg";
 import Marioandadrian from "./Assets/Mario and Adrian A.jpg";
-
+import React from 'react';
+import { Link } from "react-router-dom";
 
 
 function Main() {
     return (
       <main className="Main">
-        <Routes>
-          <Route path="/" element={<HomePage />}></Route>
-          <Route path="./Bookings.js" element={<Booking />}></Route>
-        </Routes>
         <section>
           <div class="box">
           <img src={Restauranfood} width={376} height={446} alt="Dish of Bruschetta"></img>
@@ -34,7 +31,7 @@ function Main() {
             <p>
             We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
             </p>
-            <button type="button">Reserve a table</button>
+            <button type="button"><Link to="/bookingpage">Reserve a table</Link></button>
           </div>
         </section>
         <section>
@@ -144,6 +141,7 @@ function Main() {
                 <br></br>
                 <br></br>
                 They came back to downtown Chicago and opened Little Lemon in 2014.
+                {/* <Link to="/about">Click here to learn more about us!</Link> */}
               </p>
             </div>
             </section>
