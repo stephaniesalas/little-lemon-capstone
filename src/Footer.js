@@ -1,5 +1,6 @@
 import Logo from "./Assets/rectangular logo.jpg"
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -9,29 +10,29 @@ function Footer() {
        <div class="doormat">
         <h3>Doormat Navigation</h3>
         <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="reservations.html">Reservations</a></li>
-          <li><a href="order_online.html">Order Online</a></li>
-          <li><a href="login.html">Login</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
+          <li><Link to="/bookingpage">Reservations</Link></li>
+          <li><Link to="/orderonline">Order Online</Link></li>
+          <li><Link to="/login">Login</Link></li>
         </ul>
         </div> 
         <div class="contact">
           <h3>Contact</h3>
           <ul>
-            <li>123 E 456 S, 16th Street</li>
-            <li>Chicago, IL 23432</li>
-            <li>123-234-4567</li>
+            <li>123 E. 456 S. 16th Street</li>
+            <li>Chicago, IL. 23432</li>
+            <li>(123)-234-4567</li>
             <li><a href="little.lemon@gmail.com.html">little.lemon@gmail.com</a></li>
           </ul>
         </div>
         <div class="socials">
           <h3>Social Media Links</h3>
           <ul>
-            <li><a href="facebook.com/littlelemon.html">Facebook</a></li>
-            <li><a href="instagram.com/littlelemon.html">Instagram</a></li>
-            <li><a href="x.com/littlelemon.html.">X</a></li>
+            <li><a href="facebook.com">Facebook</a></li>
+            <li><a href="instagram.com">Instagram</a></li>
+            <li><a href="x.com">X</a></li>
           </ul>
         </div>
         </section>

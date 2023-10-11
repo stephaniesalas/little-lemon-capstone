@@ -37,13 +37,13 @@ ul.Navmenu li a {
   font-weight: bold;
 }
 
-.box {
+.hero {
   width: 1440px;
   height: 353px;
   background-color: rgb(73, 94, 87);
 }
 
-.box h1 {
+.hero h1 {
   font-family: 'Markazi Text', serif;
   color: rgb(244, 206, 20);
   margin-left: 283px;
@@ -57,13 +57,12 @@ ul.Navmenu li a {
   font-weight: normal;
 }
 
-.box h2 {
+.hero h2 {
   font-family: 'Markazi Text', serif;
   color: white;
   margin-left: 283px;
   font-size: 1.8rem;
   margin-top: 0px;
-  margin-left: 283px;
   margin-right: 0px;
   margin-bottom: 0px;
   padding-bottom: 49px;
@@ -71,7 +70,7 @@ ul.Navmenu li a {
 
 }
 
-.box p {
+.hero p {
   font-size: 1rem;
   margin-left: 283px;
   margin-top: 0px;
@@ -84,16 +83,21 @@ ul.Navmenu li a {
 }
 
 
-.box img{
+.hero img{
   float: right;
   margin-right: 283px;
-  margin-top: 30px;
+  margin-left: 0px;
+  margin-top: 40px;
+  margin-bottom: 0px;
   padding-top: 0px;
   position: relative;
   border-radius: 16px;
+  max-height: 466px;
+  max-width: auto;
+
 }
 
-.box button {
+.hero button {
   margin-left: 283px;
   margin-top: 54px;
   background-color:rgb(244, 206, 20);
@@ -115,8 +119,7 @@ a:visited {
   text-decoration: none;
   color: rgb(207 , 99, 0);
 }
-
-.box button:hover{
+.hero button:hover{
   background-color: rgb(73, 94, 87);
   color: white;
   border-style: solid;
@@ -124,14 +127,14 @@ a:visited {
   border-width: 2px;
   text-decoration: none;
  }
+
 button{
   color: black;
   text-decoration: none;
 }
-
 .box2 {
-  margin-left: 283px;
-  margin-top: 188px;
+  margin-top: 250px;
+  margin-bottom: 0px;
 }
 
 .box2 h1{
@@ -144,8 +147,10 @@ button{
 
 .box2 button {
   display: inline-block;
-  margin-left: 328px;
-  margin-top: 0px;
+  float: right;
+  margin-right: 270px;
+  margin-left: 0px;
+  margin-top: 10px;
   background-color:rgb(244, 206, 20);
   font-weight: bold;
   font-size: 1.05rem;
@@ -156,7 +161,7 @@ button{
   height: 37px;
   justify-content: center;
   position: relative;
-  bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .box2 button:hover{
@@ -169,7 +174,7 @@ button{
 
 .articles {
   margin-left: 283px;
-  margin-top: 0px;
+  margin-right: 0px;
 }
 
 .articles img {
@@ -181,13 +186,15 @@ button{
 article {
     background-color: rgb(217, 217, 217);
     flex: 1;
-    justify-content: left;
-    padding: 0%;
     width: 272px;
     border-radius: 16px;
     display: inline-block;
-    margin: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
     height: 406px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
 
 }
 
@@ -213,18 +220,22 @@ h3 + h3 {
 
 p + p {
   margin-top: 22px;
+  margin-bottom: 0px;
   font-weight: bold;
 }
 
 article p img {
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 0px;
   padding-left: 5px;
+  padding-right: 0px;
 }
 
 .box4 {
   background-color: rgb(73, 94, 87);
   height: 427px;
   margin-top: 101px;
+  margin-bottom: 0px;
 }
 
 .box4 h1 {
@@ -234,7 +245,8 @@ article p img {
  font-weight: normal;
  display: flex;
  color: rgb(244, 206, 20);
-justify-content: center;
+ justify-content: center;
+ margin-left: 0px;
 
 }
 
@@ -264,6 +276,8 @@ justify-content: center;
 
  div.about {
   margin-left: 283px;
+  margin-right: 0px;
+  
  }
 
  div.about h2 {
@@ -283,31 +297,39 @@ justify-content: center;
   font-weight: normal;
   padding-top: 80px;
   margin-bottom: 10px;
- }
+  margin-left: 0px;
 
+ }
 
  div.about p {
   font-size: 1rem;
   width: 297px;
+  float: left;
  }
 
 #twochefs {
   float: right;
   margin-right: 283px;
-  margin-top: 180px;
-  padding-top: 0px;
+  margin-left: 0px;
+  margin-top: 200px;
+  margin-bottom: 80px;
   position: relative;
   border-radius: 16px;
+  padding: 0px;
+  
 
 }
  #smileychef {
   float: right;
-  margin-right: 487px;
+  margin-right: -60px;
+  margin-left: 0px;
   margin-top: 80px;
-  padding-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
   position: relative;
   border-radius: 16px;
-  top: -580px;
+  top: 0px;
+  bottom: 0px;
 }
 
 .box5 {
@@ -427,16 +449,26 @@ nav ul li a:hover {
   color: rgb(244, 206, 20);
 }
 
+nav ul li a:visited:hover {
+  color: rgb(244, 206, 20);
+}
 footer ul li a:hover {
+  color: rgb(244, 206, 20);
+  
+}
+
+footer ul li a:visited:hover {
   color: rgb(244, 206, 20);
 }
 
-#delivery:hover {
-  color: rgb(73, 94, 87);
-  font-weight: bolder;
-  font-size: .95rem;
+#delivery a:hover {
+  color: white;
 }
 
 a:visited {
-  color: rgb(207 , 99, 0);
+  color: rgb(126, 126, 126);
+}
+
+a:visited:hover {
+  color: white;
 }

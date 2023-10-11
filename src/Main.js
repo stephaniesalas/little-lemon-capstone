@@ -20,7 +20,7 @@ function Main() {
     return (
       <main className="Main">
         <section>
-          <div class="box">
+          <div class="hero">
           <img src={Restauranfood} width={376} height={446} alt="Dish of Bruschetta"></img>
             <h1>
               Little Lemon
@@ -37,7 +37,7 @@ function Main() {
         <section>
           <div class="box2">
             <h1>This weeks specials!</h1>
-            <button>Online Menu</button>
+            <button type="button"><Link to="/orderonline">Online Menu</Link></button>
           </div>
           </section>
           <section class="articles">
@@ -50,7 +50,7 @@ function Main() {
           <p>The famous greek salad of crispy lettuce, peppers,
            olives and our Chicago style feta cheese,
            garnished with crunchy garlic and rosemary croutons.</p>
-            <p id="delivery">Order a delivery<img id="bike" src={Cycling} alt="Bike Emoji"></img></p>
+            <p id="delivery"><Link to="/orderonline">Order a delivery</Link><img id="bike" src={Cycling} alt="Bike Emoji"></img></p>
         </article>
         <article>
           <div class="box3">
@@ -59,8 +59,8 @@ function Main() {
           <h3>Bruschetta</h3>
           <h3 id="price">$ 12.99</h3>
           <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
-           Fresh locally grown tomatoes, basil completes this dish.</p>
-            <p id="delivery">Order a delivery<img id="bike" src={Cycling} alt="Bike Emoji"></img></p>
+           Fresh locally grown tomatoes top it off.</p>
+            <p id="delivery"><Link to="/orderonline">Order a delivery</Link><img id="bike" src={Cycling} alt="Bike Emoji"></img></p>
         </article>
         <article>
           <div class="box3">
@@ -68,9 +68,9 @@ function Main() {
         </div>
           <h3>Lemon Dessert</h3>
           <h3 id="price">$ 12.99</h3>
-          <p>This comes straight from grandma's recipe book. Sweet, warm, lemony, this fresh lemon cake will knock your socks off.
-           Fresh whipped cream and lemon zest tops off this temptation.</p>
-            <p id="delivery">Order a delivery<img id="bike" src={Cycling} alt="Bike Emoji"></img></p>
+          <p>Straight from grandma's recipe book. Sweet, warm, lemony, this fresh lemon cake will knock your socks off.
+           Fresh whipped cream and lemon zest complete the dish.</p>
+            <p id="delivery"><Link to="/orderonline">Order a delivery</Link><img id="bike" src={Cycling} alt="Bike Emoji"></img></p>
         </article>
         </section>
         <section class="box4">
@@ -130,8 +130,10 @@ function Main() {
           </section>
           <section class="box6">
             <div class="about">
+            <div class="imgbox">
             <img id="twochefs" src={Marioandadrian} width={292} height={397} alt="Two Chefs talking"></img>
             <img id="smileychef" src={Restaurantchef} width={292} height={397} alt="Smiley Chef"></img>
+            </div>
               <h1>Little Lemon</h1>
               <h2>Chicago</h2>
               <p>
