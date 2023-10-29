@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from '../Nav';
+import Footer from '../Footer';
 function Specials() {
     return (
       <div>
@@ -7,6 +8,7 @@ function Specials() {
       <div className="Specials">
         <h1>Table reservations</h1>
       </div>
+      <Footer />
       </div>
 
     );

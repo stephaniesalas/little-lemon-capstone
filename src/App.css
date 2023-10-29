@@ -38,7 +38,7 @@ ul.Navmenu li a {
 }
 
 .hero {
-  width: 1440px;
+  width: 100%vw;
   height: 353px;
   background-color: rgb(73, 94, 87);
 }
@@ -316,7 +316,6 @@ article p img {
   position: relative;
   border-radius: 16px;
   padding: 0px;
-  
 
 }
  #smileychef {
@@ -336,7 +335,7 @@ article p img {
   background-color: rgb(73, 94, 87);
   color: white;
   height: 432px;
-  width: 100%;
+  width: 100%vw;
   display: flex;
   width: 1440px;
 }

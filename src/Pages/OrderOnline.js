@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../Nav';
+import Footer from '../Footer';
 
 function OrderOnline() {
     return (
@@ -9,6 +10,7 @@ function OrderOnline() {
      <h1>Order the stuff here ONLINE</h1>
      <p>Yum yum yum e dee yum</p>
     </div>
+    <Footer />
     </div>
     )
 }

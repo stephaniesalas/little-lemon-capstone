@@ -1,0 +1,129 @@
+
+form {
+  background-color: rgb(128, 128, 128);
+  border-width: 4px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 480px;
+  margin-top: -160px;
+  width: 350px;
+  margin-right: 0px;
+  border-radius: 0px;
+  border: none;
+  font-family: 'Markazi Text', serif;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  
+
+}
+label {
+    padding-bottom: 1%;
+    font-size: 1.4rem;
+}
+input {
+    box-sizing: border-box;
+    height: 30px;
+    width: 350px;
+    border: 2px solid #6a6a6a;
+    border-radius: 16px;
+    padding-left: 4%;
+    font-size: .9rem;
+    padding-right: 4%;
+    font-size: .8rem;
+}
+
+input:hover {
+    color: black;
+    background-color: rgb(251, 230, 122);
+}
+
+.box {
+    width: 100%vw;
+    padding: 0%;
+    margin: 0%;
+    height: 353px;
+}
+
+#textarea {
+    padding-top: 2%;
+    width: 320px;
+    height: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 16px;
+    padding-left: 4%;
+    margin-top: 1%;
+    padding-right: 4%;
+    font-size: .8rem;
+
+}
+textarea:hover {
+    color: black;
+    background-color: rgb(251, 230, 122);
+}
+
+h1 {
+    padding-top: 31px;
+    color: rgb(244, 206, 20);
+    font-family: 'Markazi Text', serif;
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
+#formtitle {
+    color: white;
+    margin-left: 283px;
+    font-family: 'Markazi Text', serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+    padding-top: -40px;
+    margin-top: 0px;
+}
+
+select {
+    box-sizing: border-box;
+    height: 30px;
+    width: 350px;
+    border: 2px solid #6a6a6a;
+    border-radius: 16px;
+    padding-left: 4%;
+    font-size: .8rem;
+}
+
+select:hover {
+    color: black;
+    background-color: rgb(251, 230, 122);
+}
+/* 
+.form {
+    margin-left: 283px;
+    margin-right: 283px;
+    background-color: rgb(244, 206, 20);
+    justify-content: left;
+} */
+
+.submitButton {
+  background-color:rgb(244, 206, 20);
+  font-weight: bold;
+  font-size: 1.05rem;
+  border-radius: 16px;
+  border: none;
+  width: 250px;
+  height: 37px;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  color: black;
+  text-decoration: none;
+  margin-left: 50px;
+
+}
+
+.submitButton:hover {
+    background-color: rgb(73, 94, 87);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    text-decoration: none;
+   }
